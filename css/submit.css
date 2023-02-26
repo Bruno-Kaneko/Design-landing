@@ -1,0 +1,46 @@
+/* submit */
+.submit{
+  height: 400px;
+  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url(../img/hrz-6.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+}
+.submit h2{
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+.submit .btn{
+  width: 40%;
+}
+.btn{
+  font-size: 2rem;
+}
+
+/* media queries */   
+@media(max-width: 700px){
+  .submit h2{
+    font-size: 2rem;
+  }
+}
+@media(max-width: 500px){
+  .submit h2{
+    font-size: 2rem;
+  }
+  .submit .btn{
+    width: 60%;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+}
+@media(max-width: 350px){
+  .btn{
+    width: 80%;
+  }
+}

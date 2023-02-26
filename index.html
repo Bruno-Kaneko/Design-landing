@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DecorHouse</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header-intro">
+      <h2>DecorHouse</h2>
+      <p class='header-description'>Um evento para revolucionar a sua criatividade</p>
+      <p class="header-date">Data do evento:</p>
+      <p class="header-date-desc">Domingo 28 de maio a partir das 14h</p>
+    </div>
+
+    <div class="header-form">
+      <p>Preencha o formulário para receber os detalhes do evento</p>
+      <form>
+        <div class="form-group">
+          <label for="name">Nome</label>
+          <input type="text" name="name" placeholder="Digite seu nome">
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" name="email" placeholder="Digite seu melhor e-mail">
+        </div>
+        <div class="form-group">
+          <label for="phone">Telefone</label>
+          <input type="text" name="phone" placeholder="Número de Whatsapp">
+        </div>
+        <div class="form-group">
+          <label for="interest">Principal interesse</label>
+          <select name="interest">
+            <option value="" disabled selected>Selecione</option>
+            <option value="apartament">Apartamentos</option>
+            <option value="house">Casa</option>
+            <option value="garden">Jardim</option>
+            <option value="other">Outros</option>
+          </select>
+        </div>
+        <input type="submit" class="btn" value="Quero me inscrever">
+      </form>
+    </div>
+  </header>
+
+  <section class="learning">
+    <h2>O que você vai aprender:</h2>
+    <div class="learnings">
+      <div class="learning-item">
+        <div class="img" id="pic1"></div>
+        <p>Alguma coisa muito legal que vai fazer a diferença na vida do participante</p>
+      </div>
+      <div class="learning-item">
+        <div class="img" id="pic2"></div>
+        <p>Alguma coisa muito legal que vai fazer a diferença na vida do participante</p>
+      </div>
+      <div class="learning-item">
+        <div class="img" id="pic3"></div>
+        <p>Alguma coisa muito legal que vai fazer a diferença na vida do participante</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="location">
+    <div class="location-address">
+      <i class="bi bi-geo-alt-fill"></i>
+      <div class="about-address">
+        <p>Rua do evento, 133</p>
+        <p>Bairro</p>
+        <p>Abertura: 14h</p>
+      </div>
+    </div>
+    <div class="about-location">
+      <h2>Local de destaque</h2>
+      <p>O evento será realizado em um local prestigiado pelos amantes de Design de interiores, onde teremos exemplos de vários ambientes, tanto internos quanto externos.</p>
+    </div>
+  </section>
+
+  <section class="places">
+    <div class="places-item">
+      <img id="img1" src="./img/hrz-3.jpg" alt="">
+      <h2>Conheça os ambientes que você vai aprender a decorar</h2>
+    </div>
+    <div class="places-item">
+      <div class="places-list">
+        <h3>Detalhes</h3>
+        <ul>
+          <li>Posicionamento</li>
+          <li>Aproveitamento de espaço</li>
+          <li>Combinação de cores</li>
+          <li>Organização</li>
+          <li><span>E muito mais...</span></li>
+        </ul>
+      </div>
+      <img id="img2" src="./img/hrz-4.jpg" alt="">
+    </div>
+    <div class="places-item">
+      <img id="img3" src="./img/hrz-5.jpg" alt="">
+      <div class="places-list">
+        <h3>Objetos</h3>
+        <ul>
+          <li>Cadeiras</li>
+          <li>Mesas</li>
+          <li>Espelhos</li>
+          <li>Plantas</li>
+          <li>Cortinas</li>
+          <li><span>E muito mais...</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="submit">
+    <h2>Gostou? Então inscreva-se</h2>
+    <input type="submit" class="btn" value="Solicitar inscrição">
+  </section>
+
+  <footer class="footer">
+    <h2>DecorHouse</h2>
+    <p>A evolução da decoração de interiores</p>
+    <p><span>Entre em contato: </span>oi@</p>
+    <p><span>Ou pelo telefone: </span>(55)99990-9999</p>
+  </footer>
+
+</body>
+
+</html>

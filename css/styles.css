@@ -1,0 +1,9 @@
+/* CSS */
+@import './global.css';
+@import './header.css';
+@import './learning.css';
+@import './location.css';
+@import './places.css';
+@import './submit.css';
+@import './footer.css';
+
